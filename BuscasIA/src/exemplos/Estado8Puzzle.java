@@ -406,8 +406,8 @@ public class Estado8Puzzle implements Estado, Heuristica, Antecessor {
         }
         
         //Nodo s = new AEstrela().busca(e8);
-        //Nodo s = new BuscaLargura(new MostraStatusConsole()).busca(e8);
-        Nodo s = new AEstrela(new MostraStatusConsole()).busca(e8);
+        Nodo s = new BuscaLargura(new MostraStatusConsole()).busca(e8);
+        //Nodo s = new AEstrela(new MostraStatusConsole()).busca(e8);
         //Nodo s = new BuscaIterativo(new MostraStatusConsole()).busca(e8);
         //Nodo s = new BuscaProfundidade(25,new MostraStatusConsole()).busca(e8);
         //Nodo s = new BuscaBidirecional(new MostraStatusConsole()).busca(e8, getEstadoMeta());
