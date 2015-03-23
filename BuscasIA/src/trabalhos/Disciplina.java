@@ -1,5 +1,7 @@
 package trabalhos;
 
+import exemplos.EstadoJarros;
+
 
 public class Disciplina {
 	
@@ -24,7 +26,7 @@ public class Disciplina {
 		this.nome = nome;
 	}
 
-	public Disciplina getPreRequisitos() {
+	public Disciplina getPreRequisito() {
 		return preRequisito;
 	}
 
@@ -39,7 +41,6 @@ public class Disciplina {
 	public void setHorarios(Horario[] horarios) {
 		this.horarios = horarios;
 	}
-	
 	
 	
 } 
